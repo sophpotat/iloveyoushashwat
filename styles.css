@@ -1,0 +1,86 @@
+/* General Body Styles */
+body {
+    font-family: 'Dancing Script', cursive; /* Cute and playful font */
+    background-color: #ffe4e1; /* Soft pink background */
+    color: #333; /* Dark gray text for good contrast */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container Styles */
+.container {
+    margin-top: 10%; /* Center the content vertically */
+    text-align: center;
+}
+
+/* Image Styles */
+img {
+    max-width: 300px; /* Keeps the image responsive */
+    border-radius: 15px; /* Rounded corners for a cute look */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2.5em; /* Large heading for emphasis */
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.buttons {
+    margin: 20px 0; /* Default spacing around buttons */
+    transition: margin-top 0.3s ease; /* Smooth movement */
+}
+
+button {
+    background-color: #ff69b4; /* Vibrant pink button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded button edges */
+    font-size: 1.2em; /* Medium-sized text */
+    transition: all 0.3s ease; /* Smooth transitions for hover and scaling */
+}
+
+button:hover {
+    background-color: #ff1493; /* Darker pink when hovered */
+}
+
+/* "Yes" Button Size Changes */
+#yes-btn {
+    transition: transform 0.3s ease; /* Smooth transformation effect */
+}
+
+/* Overlay Styles */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 182, 193, 0.9); /* Light pink with transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    color: white;
+}
+
+/* Start Button on Overlay */
+#start-button {
+    padding: 15px 30px;
+    font-size: 1.5em; /* Large button text */
+    background-color: #ff69b4; /* Pink start button */
+    border: none;
+    border-radius: 10px; /* Rounded edges */
+    color: white;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
